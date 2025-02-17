@@ -11,3 +11,8 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
