@@ -40,3 +40,47 @@
 .read-the-docs {
   color: #888;
 }
+
+/* changes after photocard */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #050714;
+  color: white;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+
+/* changes after starfield */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  position: relative; /* Important for the fixed StarField behind */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  z-index: 1; /* Make sure the gallery appears above the StarField */
+}
