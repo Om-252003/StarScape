@@ -1,0 +1,29 @@
+
+/* index.module.css */
+.container {
+  min-height: 100vh;
+  background: #050714; /* Black background */
+  color: white;
+  position: relative; /* Ensure it's properly layered */
+  padding-top: 5rem; /* Space for the header */
+}
+
+.main {
+  padding: 8rem 2rem 2rem;
+  position: relative;
+  z-index: 1; /* Ensure it's above the background */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
