@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav {
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #4299E1, #9F7AEA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.icons button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
