@@ -1,6 +1,6 @@
-import { Header } from '../components/Header';
-import { PhotoCard } from '../components/PhotoCard';
-import { StarField } from '../components/StarField';
+import { Header } from './Header';
+import { PhotoCard } from './PhotoCard';
+import { StarField } from './StarField';
 import styles from './index.module.css';
 
 const photos = [

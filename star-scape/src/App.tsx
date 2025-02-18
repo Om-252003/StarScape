@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages';
-import { PhotoDetail } from './pages/PhotoDetail';
+import HomePage from './components';
+import { PhotoDetail } from './components/PhotoDetail';
 import './App.css';
 
 function App() {

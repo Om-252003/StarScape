@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
-import { StarField } from '../components/StarField';
-import { PhotoInfo } from '../components/PhotoInfo';
+import { StarField } from './StarField.tsx';
+import { PhotoInfo } from './PhotoInfo.tsx';
 import styles from './PhotoDetail.module.css';
 import { photos } from '../data/photos.ts';
 
