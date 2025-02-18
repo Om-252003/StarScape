@@ -24,9 +24,7 @@ StarScape is an immersive space photography platform that transforms how we expe
 - Star field animations
 - Premium glass-morphism effects
 
-## 📱 Screenshots
 
-[Placeholder for Screenshots]
 
 ## 🌟 Team
 
