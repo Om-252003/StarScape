@@ -21,7 +21,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(15, 23, 42, 0.4);
+  background: rgba(0, 0, 0, 0.4); /* Ensure a neutral dark background */
   backdrop-filter: blur(4px);
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -37,7 +37,16 @@
   left: 0;
   right: 0;
   padding: 1.5rem;
-  color: white;
+  color: white; /* Ensure white text */
+  background: rgba(0, 0, 0, 0.6); /* Keep it dark for visibility */
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .content {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .info h3 {
@@ -69,4 +78,13 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+/* Fix inconsistent colors */
+.card:nth-child(even) .content {
+  background: rgba(0, 0, 0, 0.7); /* Ensure same dark color */
+}
+
+.card:nth-child(odd) .content {
+  background: rgba(0, 0, 0, 0.7); /* Remove unintended blue/purple */
 }
