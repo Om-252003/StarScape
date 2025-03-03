@@ -33,7 +33,8 @@ StarScape is an immersive space photography platform that transforms how we expe
 
 ## 🔗 Links
 
-- [Live Demo]((https://star-scape-gules.vercel.app/))
+- [Live Demo](https://star-scape-gules.vercel.app/)
+
 
 
 ## 🚀 Getting Started
